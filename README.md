@@ -1,6 +1,6 @@
 #A73
 
-![Preview](https://raw.github.com/tatou-tatou/Themes/master/A73/A73.png)
+![Preview](https://raw.github.com/tatou-tatou/A73/master/A73.png)
 
 * The gtk2 part is made from SimpliX. The gtk3 part is made from Numix.
 
