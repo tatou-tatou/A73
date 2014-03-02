@@ -27,7 +27,7 @@ style "murrine-default" {
 	GtkImage::x-ayatana-indicator-dynamic = 1
 
 	GtkMenu::horizontal-padding = 0
-	GtkMenu::vertical-padding = 6
+	GtkMenu::vertical-padding = 0
 
 	GtkMenuBar::internal-padding = 0
 	GtkMenuBar::window-dragging = 1
@@ -66,7 +66,7 @@ style "murrine-default" {
 	GtkToolbar::internal-padding = 3
 
 	GtkTreeView::expander-size = 11
-	GtkTreeView::vertical-separator = 3
+	GtkTreeView::vertical-separator = 0
 
 	GtkWidget::focus-line-width = 1
 	# The following line prevents the Firefox tabs
@@ -111,7 +111,7 @@ style "murrine-default" {
 	base[PRELIGHT] = shade (0.95, @base_color)
 	base[SELECTED] = @selected_bg_color
 	base[ACTIVE] = @selected_bg_color
-	base[INSENSITIVE] = shade (0.85, @base_color)
+	base[INSENSITIVE] = shade (0.95, @base_color)
 
 	text[NORMAL] = @text_color
 	text[PRELIGHT] = @text_color
@@ -310,6 +310,7 @@ style "murrine-vscrollbar" = "murrine-scrollbar" { }
 style "murrine-menu" = "murrine-thin" {
 
 	xthickness=1
+	ythickness=6
 
 	bg[NORMAL] = @menu_bg_color
 	bg[PRELIGHT] = @selected_bg_color
@@ -356,6 +357,8 @@ style "murrine-menu-item" = "murrine-wider" {
 }
 
 style "murrine-separator-menu-item" = "murrine-thin" {
+
+	ythickness=2
 
 }
 
