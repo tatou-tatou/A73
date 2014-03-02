@@ -4,11 +4,23 @@
 
 A gtk2/gtk3 theme inspired by (and initially made from) [SimpliX](http://sixsixfive.deviantart.com/art/simpliX-346404452). The current version was made by tweaking [Numix](http://numixproject.org/) to my liking.
 
-As seen on the screenshot, it's meant to be used with *minimal* window decorations, which means no title bar.
+As seen on the screenshot, it's meant to be used with minimal window decorations, which means no title bar.
+
+##To fix
+#####gtk3
+* The gtk3 part have some bugs with buttons, but it seems to be the same with vanilla Numix.
+* Anyway, all the gtk3 needs to be reworked.
+
+#####gtk2
+* Menus have some very inconsistent padding.
+* Is pink a good color for buttons?
+* Inactive buttons are pig disgusting.
+* Firefox draws red things on both ends of the scrollbar. Have not seen that elsewhere.
+* Not satisfied with the arrows.
 
 ##Misc
-The gtk3 part have some bugs with buttons, but it seems to be the same with vanilla Numix. I will fix them when I can.
+In the screenshot, I'm using [those](https://github.com/cldx/Numix) icons and [SpaceFM](http://ignorantguru.github.io/spacefm/), a gtk3 file manager.
 
-In the screenshot, I'm using [those](https://github.com/cldx/Numix) icons with the gtk3 file manager [SpaceFM](http://ignorantguru.github.io/spacefm/).
-The set is not complete and the mimetype icons do not work properly in SpaceFM though, but I might fix that one day.
-My font is Lucida Grande.
+The set is not complete and the mimetype icons do not work properly in SpaceFM, but as the repo seems abandoned, I might fix that one day.
+
+My gtk font is Lucida Grande.
